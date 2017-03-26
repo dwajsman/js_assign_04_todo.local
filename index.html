@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>todo list</title>
+  <link rel="stylesheet" href="style.css"> 
+</head>
+<body onload="fetchTarefas()">
+  <h1>todo list</h1>
+    <label>add todo item</label>
+    
+<form id="form">
+    <input type="text" id="finput" placeholder="insert an item">
+    <button id="fbtn">Add</button>
+</form>
+
+<!-- 
+  <input type="text" id="addTodoItem">
+  <button onclick="todoList()" class="addTodo">Add</button>
+ -->
+
+
+<ul id="idUL">
+
+<div id="tarefasShow"></div>
+</ul>
+<!-- 
+<ul id="tarefasShow">
+
+</ul> -->
+
+
+
+
+  <footer>
+    <p>click on an item when it is completed.<br>
+    click it again to reset the item if it needs to be done again</p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
